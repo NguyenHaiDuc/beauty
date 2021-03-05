@@ -1,0 +1,678 @@
+/*Preferential*/
+.beauty-home .preferential{
+	display: block;
+	background-color: #f5b9aa;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.beauty-home .preferential p{
+	padding: 10px;
+	margin: 0;
+}
+/*End Preferential*/
+
+/*Top Header*/
+.beauty-home .top-header{
+	background-color: #000000;
+	display: flex;
+}
+
+.beauty-home .top-header__logo{
+	float: left;
+	width: 80%;
+}
+
+.beauty-home .top-header__logo .logo{
+	background-color: #fff;
+	width: 10%;
+	padding: 3px 1vw;
+}
+
+.beauty-home .top-header__logo .logo-moments{
+	width: 10%;
+	padding: 0px 15px;
+}
+
+.beauty-home .top-header__icon{
+	float: right;
+	width: 20%;
+}
+
+.beauty-home .top-header__icon img{
+	width: 6%;
+}
+
+.beauty-home .top-header__icon a{
+    margin-right: 15px;
+    top: 10px;
+    left: 2em;
+    position: relative;
+}
+
+.beauty-home .top-header__icon .ar{
+	height: 1em;
+	color: #fff;
+	font-weight: 500;
+	top: 15px;
+	margin-right: 0;
+}
+/*End Top Header*/
+
+/*Bottom Header*/
+.beauty-home .bottom-header__location{
+	padding-top: 5em;
+}
+
+.beauty-home .bottom-header__location a{
+	color: #000;
+}
+
+.bottom-header__location a i:before{
+	padding-right: 0.5em;
+}
+
+.beauty-home .bottom-header__logo img{
+	width: 45%;
+	padding-top: 4em;
+	padding-left: 2em;
+}
+
+.beauty-home .bottom-header__search{
+	height: 2.5em;
+	width: 15em;
+	padding-top: 5em;
+}
+
+.beauty-home .bottom-header__search .input-group{
+	max-width: 100%;
+	right: 4em;
+}
+
+.beauty-home .bottom-header__search .input-group input{
+	width: 80%;
+	height: 100%;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	background-color: #f5f5f5;
+	float: left;
+	padding: 0.8em;
+	padding-left: 0;
+}
+
+.beauty-home .bottom-header__search .input-group input::placeholder{
+	color: #000;
+}
+
+.beauty-home .bottom-header__search .input-group a{
+	font-size: 17px;
+	border: none;
+	background-color: #f5f5f5;
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin: auto;
+	padding: 15px;
+	color: #0f0f0f;
+}
+/*End Bottom Header*/
+
+/*Menu*/
+.beauty-home .menu{
+	padding: 3em 0;
+	font-family: Tajawal;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.beauty-home .menu__list{
+	display: inline-flex;
+	text-align: center;
+}
+
+.beauty-home .menu__list li{
+	display: inline-block;
+	padding-left: 1em;
+}
+
+.beauty-home .menu__list li a{
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+}
+
+.beauty-home .menu__list li a:hover{
+	opacity: 0.6;
+}
+/*End Menu*/
+
+/*Slide*/
+.beauty-home .slide{
+	padding: 3em 0;
+}
+
+.beauty-home .slide--inline{
+	display: inline-flex;
+}
+
+.beauty-home .slide__extra{
+	padding-top: 4em;
+}
+
+.beauty-home .slide__extra img{
+	width: 100%;
+	padding: 0.5em;
+}
+
+.beauty-home .slide__main img{
+	width: 100%;
+}
+/*End Slide*/
+
+/*Content*/
+.beauty-home .content__text{
+	text-align: center;
+	padding-bottom: 4em
+}
+
+.beauty-home .content__text h1{
+	font-family: Amiri;
+	color: #a31624;
+	font-size: 65px;
+	font-weight: 400;
+	line-height: 72px;
+	text-transform: uppercase;
+}
+
+.beauty-home .content__text h5{
+	font-family: Amiri;
+	font-size: 35px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 45px;
+	margin: 0px 0px 30px 0px;
+}
+
+.beauty-home .content__btn{
+	font-family: Amiri;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #a31624;
+	padding: 15px 12px 15px 0;
+	border-bottom: 1px solid #a31624;
+}
+
+.beauty-home .content__btn___icon{
+	width: 20px;
+	margin-left: 25px;
+}
+
+.beauty-home .content__btn:hover{
+	opacity: 0.6;
+}
+/*End Content*/
+
+/*Perfumes*/
+.beauty-home .perfumes{
+	padding-top: 25em;
+	padding-bottom: 35em;
+}
+
+.beauty-home .perfumes__bgr{
+	background-color: #ffeef0;
+}
+
+.beauty-home .perfumes__img img{
+	width: 100%;
+}
+
+.beauty-home .perfumes__text{
+	margin-top: 60px;
+}
+
+.beauty-home .perfumes__text h1{
+	font-family: Amiri;
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 50px;
+	color: #a31624;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.beauty-home .perfumes__text h5{
+	font-family: Tajawal;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 31px;
+	margin: 0;
+}
+
+.beauty-home .perfumes__text a{
+	float: right;
+}
+
+.beauty-home .perfumes__text--to-right{
+	position: relative;
+	left: 120px;
+}
+
+.beauty-home .perfumes__content--to-right{
+	position: relative;
+	left: 80px;
+	bottom: 260px;
+}
+
+.beauty-home .perfumes__content{
+	position: relative;
+	z-index: 99;
+}
+
+.beauty-home .perfumes__content--to-left{
+	position: relative;
+	right: 80px;
+	bottom: 70px;
+}
+
+.beauty-home .perfumes__content--mid-to-right{
+	right: 80px;
+	top: 400px;
+}
+
+.beauty-home .perfumes__content--bottom-to-right{
+	top: 760px;
+}
+
+.beauty-home .color-label-1{
+	position: relative;
+}
+
+.beauty-home .color-label-2{
+	position: relative;
+}
+
+.beauty-home .color-label-3{
+	position: relative;
+}
+
+.beauty-home .color-label-1:before{
+	content: "";
+	background-color: #e49181;
+	height: 35%;
+	width: 100%;
+	position: absolute;
+	bottom: -20px;
+	left: 20px;
+	z-index: -1;
+}
+
+.beauty-home .color-label-2:before{
+	content: "";
+	background-color: #e0d491;
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	bottom: -20px;
+	left: -20px;
+	z-index: -1;
+}
+
+.beauty-home .color-label-3:before{
+	content: "";
+	background-color: #ecdec6;
+	height: 65%;
+	width: 30%;
+	position: absolute;
+	bottom: -30px;
+	right: -20px;
+	z-index: -1;
+}
+/*End Perfumes*/
+
+/*Bestseller*/
+.beauty-home .bestseller{
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+.beauty-home .bestseller__content{
+	top: 100px;
+    position: relative;
+}
+
+.beauty-home .bestseller__content .perfumes__text a{
+	position: relative;
+	right: 120px;
+}
+
+.beauty-home .bestseller__img{
+	display: flex;
+}
+
+.beauty-home .bestseller__img img{
+	width: 45%;
+	position: relative;
+}
+
+.beauty-home .bestseller .col-8:before{
+	content: "";
+	background-color: #f5b9aa;
+	height: 45%;
+	width: 85%;
+	position: absolute;
+	bottom: -25px;
+	right: 160px;
+	z-index: -1;
+}
+/*End Bestseller*/
+
+/*New Products*/
+.beauty-home .new-products{
+	margin: 4em 0;
+}
+
+.beauty-home .new-products__text{
+	text-align: center;
+}
+
+.beauty-home .new-products__items{
+	margin-top: 100px;
+}
+
+.beauty-home .item__img img{
+	width: 100%;
+}
+
+.beauty-home .item__text{
+	margin-top: 20px;
+}
+
+.beauty-home .item__text a{
+	font-family: Tajawal;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 31px;
+	color: #000;
+}
+
+.beauty-home .item__text h5{
+	font-weight: bold;
+	font-size: 24px;
+	margin: 10px 0;
+}
+
+.beauty-home .item__text:hover{
+	opacity: 0.6;
+}
+/*End New Products*/
+
+/*Current Offers*/
+.beauty-home .current-offers{
+	margin-bottom: 4em;
+}
+.beauty-home .current-offers__text{
+	margin-bottom: 125px;
+}
+.beauty-home .current-offers .perfumes__img img{
+	width: 100%;
+	box-shadow: -35px 35px #fbced2;
+}
+
+.beauty-home .current-offers__item{
+	margin-top: 40px;
+}
+/*End Current Offers*/
+
+/*Posts*/
+.beauty-home .posts{
+	margin-top: 10em;
+	margin-bottom: 2em;
+}
+
+.beauty-home .post__text{
+	margin-top: 0;
+}
+
+.beauty-home .post__item{
+	margin-top: 4em;
+}
+
+.beauty-home .post__item-img img {
+    width: 100%;
+}
+
+.beauty-home .posts .post__item-text{
+	margin-top: -35px;
+	margin-right: 10px;
+}
+
+.beauty-home .post .post__item-text h1{
+	margin-top: 0px;
+}
+
+.beauty-home .post__item-text h5{
+	color: #000;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.beauty-home .post__item-text a{
+	color: #000;
+	float: left;
+}
+
+.beauty-home .post__item-text a:hover{
+	opacity: 0.6;
+}
+
+.beauty-home .post__interactive{
+	float: left;
+}
+
+.beauty-home .post__interactive img{
+	width: 30%;
+	vertical-align: top;
+}
+/*End Posts*/
+
+/*Instagram*/
+.beauty-home .instagram{
+	margin-top: 10em;
+	margin-bottom: 8em;
+}
+
+.beauty-home .instagram__text{
+	text-align: center;
+}
+
+.beauty-home .instagram__items{
+	overflow: hidden;
+}
+
+.beauty-home .instagram__items .instagram__item{
+	width: 350px;
+	height: 350px;
+	position: relative;
+	margin: 1px;
+}
+
+.beauty-home .instagram__items .instagram__item:hover:before{
+	opacity: 0.2;
+}
+
+.beauty-home .instagram__items .instagram__item:hover .instagram__item-text{
+	opacity: 1;
+	visibility: visible;
+	z-index: 99;
+}
+
+.beauty-home .instagram__items .instagram__item:before{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	content: "";
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.beauty-home .instagram__set-bgr{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.beauty-home .instagram__items .instagram__item-text{
+	padding-top: 150px;
+	padding-left: 20px;
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+	position: relative;
+	transition: 0.3s;
+}
+
+.beauty-home .instagram__items .instagram__item-text a{
+	color: #fff;
+}
+
+.beauty-home .instagram__items .instagram__item-text img{
+	font-size: 30px;
+	color: #fff;
+}
+
+.beauty-home .instagram__items .instagram__item-text h5{
+	margin-top: 14px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.beauty-home .instagram__bgr-1{
+	background-image: url("../img/img-instagram-1.png");
+	background-size: 100%;
+}
+
+.beauty-home .instagram__bgr-2{
+	background-image: url("../img/img-instagram-2.png");
+	background-size: 100%;
+}
+
+.beauty-home .instagram__bgr-3{
+	background-image: url("../img/img-instagram-3.png");
+	background-size: 100%;
+}
+
+.beauty-home .instagram__bgr-4{
+	background-image: url("../img/img-instagram-4.png");
+	background-size: 100%;
+}
+/*End Instagram*/
+
+/*Newsletter*/
+.beauty-home .newsletter .perfumes__text input{
+	outline: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding-left: 12px;
+
+	background-image: url(../img/icon-next.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 20px;
+	padding-right: 4em;
+	vertical-align: middle;
+	float: right;
+	right: 2em;
+	top: 3em;
+	position: relative;
+}
+
+.beauty-home .newsletter__img img{
+	width: 100%;
+}
+
+.beauty-home .newsletter .col-7:before{
+	content: "";
+	background-color: #f5b9aa;
+	height: 45%;
+	width: 85%;
+	position: absolute;
+	bottom: -25px;
+	right: 140px;
+	z-index: -1;
+}
+/*End Newsletter*/
+
+/*Footer*/
+.beauty-home .footer{
+	margin-top: 10em;
+	padding-top: 3em;
+	padding-bottom: 4em;
+	background: #000;
+	text-align: center;
+}
+
+.beauty-home .footer-top{
+	padding-bottom: 4em;
+	border-bottom: 1px solid #363636;
+}
+
+.beauty-home .footer-top__text h3{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Tajawal;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.beauty-home .footer-top__list{
+	display: grid;
+}
+
+.beauty-home .footer-top__list a{
+	color: #fff;
+	margin: 5px 0;
+}
+
+.beauty-home .footer-bottom{
+	padding-top: 3em;
+}
+
+.beauty-home .footer-bottom__social-network{
+	display: inline-flex;
+}
+
+.beauty-home .footer-bottom__social-network img{
+	width: 60%;
+}
+/*End Footer*/
+
+/*Copyright*/
+.copyright{
+	width: 100%;
+	background-color: #e5e5e5;
+	font-family: Tajawal;
+	color: #474747;
+}
+
+.copyright h4{
+	width: 100%;
+	background-color: #e5e5e5;
+	font-family: Tajawal;
+	font-size: 16px;
+	color: #474747;
+	padding: 10px;
+	margin: 0;
+}
+/*End Copyright*/
