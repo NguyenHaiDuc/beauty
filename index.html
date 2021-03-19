@@ -2,9 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Beauty</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/reuse.css">
+	<link rel="stylesheet" type="text/css" href="css/tablet-responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile-responsive.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body class="beauty-home">
@@ -58,8 +61,9 @@
 				</div>
 				<div class="col-3">
 					<div class="bottom-header__search">
+						<input type="checkbox" id="check">
 						<div class="input-group">
-							<a href="#"><i class="fa fa-search"></i></a>
+							<label for="check"><i class="fa fa-search"></i></label>
 							<input type="text" placeholder="Search">
 						</div>
 					</div>
@@ -72,30 +76,34 @@
 <!-- Menu -->
 	<div class="menu">
 		<div class="container">
-			<div class="menu__list">
-				<ul>
-					<li>
-						<a href="#">Gift and distributtons</a>
-					</li>
-					<li>
-						<a href="#">home products</a>
-					</li>
-					<li>
-						<a href="#">spoil yourself</a>
-					</li>
-					<li>
-						<a href="#">perfumes</a>
-					</li>
-					<li>
-						<a href="#">daily care</a>
-					</li>
-					<li>
-						<a href="#">feature collections</a>
-					</li>
-					<li>
-						<a href="#">current offers</a>
-					</li>
-				</ul>
+			<div class="menu__nav">
+				<label class="menu__bars" for="toggle"><i class="fa fa-bars"></i></label>
+				<input type="checkbox" id="toggle">
+				<div class="menu__list">
+					<ul>
+						<li>
+							<a href="#">Gift and distributtons</a>
+						</li>
+						<li>
+							<a href="#">home products</a>
+						</li>
+						<li>
+							<a href="#">spoil yourself</a>
+						</li>
+						<li>
+							<a href="#">perfumes</a>
+						</li>
+						<li>
+							<a href="#">daily care</a>
+						</li>
+						<li>
+							<a href="#">feature collections</a>
+						</li>
+						<li>
+							<a href="#">current offers</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -104,23 +112,17 @@
 <!-- Slide -->
 	<div class="slide">
 		<div class="container">
-			<div class="row slide--inline">
-				<div class="col-3">
-					<div class="slide__extra">
-						<img class="img-top" src="img/img-pro-2.png" alt="">
-						<img class="img-bottom" src="img/img-pro-3.png" alt="">
-					</div>
+			<div class="slide__wrapper">
+				<div class="slide__item-1">
+					<img class="img-top" src="img/img-pro-2.png" alt="">
+					<img class="img-top" src="img/img-pro-3.png" alt="">
 				</div>
-				<div class="col-6">
-					<div class="slide__main">
-						<img class="img-top" src="img/img-pro-1.png" alt="">
-					</div>
+				<div class="slide__item-2">
+					<img class="img-top" src="img/img-pro-1.png" alt="">
 				</div>
-				<div class="col-3">
-					<div class="slide__extra">
-						<img class="img-top" src="img/img-pro-4.png" alt="">
-						<img class="img-bottom" src="img/img-pro-5.png" alt="">
-					</div>
+				<div class="slide__item-3">
+					<img class="img-top" src="img/img-pro-4.png" alt="">
+					<img class="img-top" src="img/img-pro-5.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -151,7 +153,7 @@
 			<div class="perfumes__bgr">
 				<div class="row">
 					<div class="col-4 perfumes__content--to-right">
-						<div class="perfumes__content">
+						<div class="perfumes__content perfumes__content-1">
 							<div class="perfumes__img">
 								<img src="img/img-pro-2-1.png" alt="">
 							</div>
@@ -161,7 +163,7 @@
 								<a class="content__btn" href="#">Discover products <img class="content__btn___icon" src="img/icon-next.png" alt=""></a>
 							</div>
 						</div>
-						<div class="perfumes__content perfumes__content--mid-to-right">
+						<div class="perfumes__content  perfumes__content-2 perfumes__content--mid-to-right">
 							<div class="perfumes__img color-label-2">
 								<img src="img/img-pro-2-3.png" alt="">
 							</div>
@@ -171,7 +173,7 @@
 								<a class="content__btn" href="#">Discover products <img class="content__btn___icon" src="img/icon-next.png" alt=""></a>
 							</div>
 						</div>
-						<div class="perfumes__content perfumes__content--bottom-to-right">
+						<div class="perfumes__content  perfumes__content-3 perfumes__content--bottom-to-right">
 							<div class="perfumes__img">
 								<img src="img/img-pro-2-5.png" alt="">
 							</div>
@@ -184,7 +186,7 @@
 					</div>
 					<div class="col-4"></div>
 					<div class="col-4 perfumes__content--to-left">
-						<div class="perfumes__content">
+						<div class="perfumes__content  perfumes__content-4">
 							<div class="perfumes__img color-label-1">
 								<img src="img/img-pro-2-2.png" alt="">
 							</div>
@@ -194,7 +196,7 @@
 								<a class="content__btn" href="#">Discover products <img class="content__btn___icon" src="img/icon-next.png" alt=""></a>
 							</div>
 						</div>
-						<div class="perfumes__content perfumes__content--mid-to-right">
+						<div class="perfumes__content  perfumes__content-5 perfumes__content--mid-to-right">
 							<div class="perfumes__img color-label-3">
 								<img src="img/img-pro-2-4.png" alt="">
 							</div>
@@ -240,7 +242,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-4"></div>
-				<div class="col-4">
+				<div class="col-4 col-4--responsive">
 					<div class="perfumes__text new-products__text">
 						<h1>new products</h1>
 						<h5>Empowering and harmonious relationship with your own skin</h5>
@@ -365,6 +367,9 @@
 				</div>
 			</div>
 		</div>
+		<div class="hidden">
+			<a class="content__btn" href="#">Discover products <img class="content__btn___icon" src="img/icon-next.png" alt=""></a>
+		</div>
 	</div>
 </div>
 <!-- End Current Offers -->
@@ -381,7 +386,7 @@
 				</div>
 				<div class="col-6"></div>
 				<div class="col-2">
-					<a class="content__btn" href="#">Discover products <img class="content__btn___icon" src="img/icon-next.png" alt=""></a>
+					<a class="content__btn" href="#">Check more posts <img class="content__btn___icon" src="img/icon-next.png" alt=""></a>
 				</div>
 			</div>
 			<div class="row post__item">
@@ -439,6 +444,35 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="posts-responsive">
+		<div class="container">
+			<div class="post__wrapper">
+				<div class="perfumes__text post__text">
+					<h1>featured posts</h1>
+					<h5>Empowering and harmonious relationship with your own skin</h5>
+				</div>
+				<div class="post__item-img">
+					<img src="img/img-post-1.png" alt="">
+				</div>
+				<div class="post__item-text">
+					<div class="perfumes__text">
+						<a href="#">
+							<h5>beauty</h5>
+							<h1>dry skin care tips</h1>
+						</a>				
+					</div>
+				</div>
+				<div class="post__interactive">
+							<a href="#"><img src="img/icon-comment.png" alt="">&nbsp;20</a>
+							<a href="#"><img src="img/icon-eye.png" alt="">&nbsp;120</a>
+						</div>
+				<div class="post__btn">
+					<a class="content__btn" href="#">Check more posts <img class="content__btn___icon" src="img/icon-next.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
 <!-- End Posts -->
 
 <!-- Gifts -->
@@ -475,37 +509,17 @@
 			</div>
 			<div class="instagram__items">
 				<div class="row">
-					<div class="col-3 instagram__item instagram__set-bgr instagram__bgr-1">
-						<div class="instagram__item-text">
-							<a href="#">
-								<img src="img/icon-instagram.png" alt="">
-								<h5>beauty</h5>
-							</a>
-						</div>
+					<div class="col-3">
+						<img src="img/img-instagram-1.png" alt="">
 					</div>
-					<div class="col-3 instagram__item instagram__set-bgr instagram__bgr-2">
-						<div class="instagram__item-text">
-							<a href="#">
-								<img src="img/icon-instagram.png" alt="">
-								<h5>beauty</h5>
-							</a>
-						</div>
+					<div class="col-3">
+						<img src="img/img-instagram-2.png" alt="">
 					</div>
-					<div class="col-3 instagram__item instagram__set-bgr instagram__bgr-3">
-						<div class="instagram__item-text">
-							<a href="#">
-								<img src="img/icon-instagram.png" alt="">
-								<h5>beauty</h5>
-							</a>
-						</div>
+					<div class="col-3">
+						<img src="img/img-instagram-3.png" alt="">
 					</div>
-					<div class="col-3 instagram__item instagram__set-bgr instagram__bgr-4">
-						<div class="instagram__item-text">
-							<a href="#">
-								<img src="img/icon-instagram.png" alt="">
-								<h5>beauty</h5>
-							</a>
-						</div>
+					<div class="col-3">
+						<img src="img/img-instagram-4.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -514,7 +528,7 @@
 <!-- End Instagram -->
 
 <!-- Newsletter -->
-	<div class="newsletter bestseller">
+	<div class="newsletter">
 		<div class="container">
 			<div class="row">
 				<div class="col-5">
@@ -585,7 +599,7 @@
 				</div>
 				<div class="footer-bottom">
 					<div class="row">
-						<div class="col-3">
+						<div class="col-3 hidden">
 							<div class="footer-top__text">
 								<h3>email sign up</h3>
 								<div class="footer-top__list">
@@ -593,8 +607,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-3"></div>
-						<div class="col-3"></div>
+						<div class="col-3 hidden"></div>
+						<div class="col-3 hidden"></div>
 						<div class="col-3">
 							<div class="footer-top__text">
 								<h3>connect with us</h3>
