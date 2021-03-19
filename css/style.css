@@ -86,6 +86,10 @@
 	padding-top: 5em;
 }
 
+#check{
+	display: none;
+}
+
 .beauty-home .bottom-header__search .input-group{
 	max-width: 100%;
 	right: 4em;
@@ -107,7 +111,7 @@
 	color: #000;
 }
 
-.beauty-home .bottom-header__search .input-group a{
+.beauty-home .bottom-header__search .input-group label{
 	font-size: 17px;
 	border: none;
 	background-color: #f5f5f5;
@@ -126,6 +130,16 @@
 	font-family: Tajawal;
 	font-size: 18px;
 	font-weight: 400;
+}
+
+.beauty-home .menu .menu__bars{
+	font-size: 20px;
+	line-height: 70px;
+	display: none;
+}
+
+#toggle{
+	display: none;
 }
 
 .beauty-home .menu__list{
@@ -156,21 +170,37 @@
 	padding: 3em 0;
 }
 
-.beauty-home .slide--inline{
-	display: inline-flex;
+.beauty-home .slide__wrapper .slide__item-1{
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
-.beauty-home .slide__extra{
-	padding-top: 4em;
+.beauty-home .slide__wrapper .slide__item-3{
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
-.beauty-home .slide__extra img{
+.beauty-home .slide__wrapper .slide__item-1 img{
 	width: 100%;
 	padding: 0.5em;
 }
 
-.beauty-home .slide__main img{
+.beauty-home .slide__wrapper .slide__item-2 img{
 	width: 100%;
+}
+
+.beauty-home .slide__wrapper .slide__item-3 img{
+	width: 100%;
+	padding: 0.5em;
+}
+
+.beauty-home .slide__wrapper{
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	text-align: center;
+	grid-gap: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 /*End Slide*/
 
@@ -330,7 +360,7 @@
 	width: 30%;
 	position: absolute;
 	bottom: -30px;
-	right: -20px;
+	left: 45vw;
 	z-index: -1;
 }
 /*End Perfumes*/
@@ -416,6 +446,7 @@
 .beauty-home .current-offers{
 	margin-bottom: 4em;
 }
+
 .beauty-home .current-offers__text{
 	margin-bottom: 125px;
 }
@@ -426,6 +457,10 @@
 
 .beauty-home .current-offers__item{
 	margin-top: 40px;
+}
+
+.beauty-home .current-offers .hidden{
+	display: none;
 }
 /*End Current Offers*/
 
@@ -479,6 +514,10 @@
 	width: 30%;
 	vertical-align: top;
 }
+
+.beauty-home .posts-responsive{
+	display: none;
+}
 /*End Posts*/
 
 /*Instagram*/
@@ -491,91 +530,20 @@
 	text-align: center;
 }
 
-.beauty-home .instagram__items{
-	overflow: hidden;
-}
-
-.beauty-home .instagram__items .instagram__item{
-	width: 350px;
-	height: 350px;
-	position: relative;
-}
-
-.beauty-home .instagram__items .instagram__item:hover:before{
-	opacity: 0.2;
-}
-
-.beauty-home .instagram__items .instagram__item:hover .instagram__item-text{
-	opacity: 1;
-	visibility: visible;
-	z-index: 99;
-}
-
-.beauty-home .instagram__items .instagram__item:before{
-	position: absolute;
-	left: 0;
-	top: 0;
+.beauty-home .instagram__items img{
 	width: 100%;
-	height: 100%;
-	background: #000;
-	content: "";
-	opacity: 0;
-	transition: 0.3s;
 }
 
-.beauty-home .instagram__set-bgr{
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
-}
-.beauty-home .instagram__items .instagram__item-text{
-	padding-top: 150px;
-	padding-left: 20px;
-	text-align: center;
-	opacity: 0;
-	visibility: hidden;
-	position: relative;
-	transition: 0.3s;
-}
-
-.beauty-home .instagram__items .instagram__item-text a{
-	color: #fff;
-}
-
-.beauty-home .instagram__items .instagram__item-text img{
-	font-size: 30px;
-	color: #fff;
-}
-
-.beauty-home .instagram__items .instagram__item-text h5{
-	margin-top: 14px;
-	font-style: italic;
-	font-weight: bold;
-	font-size: 16px;
-}
-
-.beauty-home .instagram__bgr-1{
-	background-image: url("../img/img-instagram-1.png");
-	background-size: 100%;
-}
-
-.beauty-home .instagram__bgr-2{
-	background-image: url("../img/img-instagram-2.png");
-	background-size: 100%;
-}
-
-.beauty-home .instagram__bgr-3{
-	background-image: url("../img/img-instagram-3.png");
-	background-size: 100%;
-}
-
-.beauty-home .instagram__bgr-4{
-	background-image: url("../img/img-instagram-4.png");
-	background-size: 100%;
+.beauty-home .instagram__items .col-3{
+	padding: 1px;
 }
 /*End Instagram*/
 
 /*Newsletter*/
+.beauty-home .newsletter .perfumes__text h5{
+	font-style: italic;
+}
+
 .beauty-home .newsletter .perfumes__text input{
 	outline: none;
 	border-top: none;
